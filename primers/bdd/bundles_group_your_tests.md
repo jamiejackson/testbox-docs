@@ -1,6 +1,6 @@
 # Bundles: Group Your Tests
 
-TestBox relies on the fact of creating testing bundles which are basically CFCs. A bundle CFC will hold all the suites and specs a TestBox runner will execute and produce reports on.
+TestBox relies on testing bundles, which are basically CFCs. A bundle CFC will hold all the suites and specs that a TestBox runner will execute and produce reports on.
 
 ```javascript
 component extends="testbox.system.BaseSpec"{
